@@ -24,7 +24,10 @@
 /* Heading Styles */
 
 
-
+article#about_tss h1 {
+   color: white;
+   background-color: rgb(222, 128, 60);
+}
 
 
 
