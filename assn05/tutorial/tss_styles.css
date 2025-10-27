@@ -29,6 +29,11 @@ article#about_tss h1 {
    background-color: rgb(222, 128, 60);
 }
 
+article#about_tss h2 {
+   color: white;
+   background-color: rgb(235, 177, 131);
+}
+
 
 
 /* Aside and Blockquote Styles */
