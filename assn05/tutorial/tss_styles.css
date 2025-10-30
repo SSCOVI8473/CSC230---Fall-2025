@@ -82,6 +82,13 @@ aside blockquote::before {
    font-weight: bold;
 }
 
+aside blockquote::after {
+   content: close-quote;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.6em;
+   font-weight: bold;
+}
+
 
 /* Navigation Styles */	
 
