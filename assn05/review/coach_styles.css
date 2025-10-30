@@ -41,6 +41,7 @@ body > footer address {
    font-size: 0.9em;
    line-height: 3em;
    font-family: Nobile, Verdana, Geneva, sans-serif;
+   text-align: center;
 }
 
 /* Heading Styles */
