@@ -13,7 +13,7 @@
    
    TSS Typographic Style Sheet
    Author: Steven Scoville
-   Date:   10/30/2025
+   Date:   10/31/2025
    
    Filename: coach_styles.css
 
@@ -71,8 +71,8 @@ article.coach_bio h2 {
 aside blockquote {
    font-size: 0.95em;
    font-family: 'Comic Sans MS', cursive;
-   color: rgb(222, 128, 60);
-   background-color: rgba(255, 255, 255, 0.75);
+   background-color: rgb(222, 128, 60);
+   color: rgba(255, 255, 255, 0.75);
    padding: 10px;
    quotes: "\201C" "\201D";
 }
