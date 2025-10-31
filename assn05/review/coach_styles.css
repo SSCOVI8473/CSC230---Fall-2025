@@ -77,6 +77,12 @@ aside blockquote {
    quotes: "\201C" "\201D";
 }
 
+aside blockquote::before {
+   content: open-quote;
+   font-weight: bold;
+   font-size: 1.6em;
+   font-family: 'Times New Roman', Times, serif;
+}
 
 /* Navigation Styles */	
 
