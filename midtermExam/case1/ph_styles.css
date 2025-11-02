@@ -120,6 +120,10 @@ section.playbill h1 {
    background-color: hsl(0, 100%, 75%);
 }
 
+#play3 h1 {
+   font-family: Impact, Charcoal, sans-serif;
+}
+
 #play4 {
    background-color: hsl(296, 86%, 86%);
 }
