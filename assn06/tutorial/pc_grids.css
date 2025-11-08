@@ -60,10 +60,3 @@ section > h1 {
 
 /* Grid Outline Styles */
 
-body > * {
-   outline: 2px dashed red;
-}
-
-section > * {
-   outline: 2px dashed blue;
-}
