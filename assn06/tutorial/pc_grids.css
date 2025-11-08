@@ -28,6 +28,8 @@ body > header {
    grid-column: 1/-1;
 }
 
+body > article {grid-area: intro;}
+
 /* Grid Styles for Nested Grid */
 
 section {
