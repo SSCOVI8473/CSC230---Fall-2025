@@ -18,6 +18,12 @@ body {
    display: grid;
 }
 
+/* Grid Styles for Nested Grid */
+
+section {
+   display: grid;
+}
+
 
 /* Grid Rows Styles */
 
