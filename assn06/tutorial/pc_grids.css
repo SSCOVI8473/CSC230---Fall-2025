@@ -42,3 +42,7 @@ section {
 body > * {
    outline: 2px dashed red;
 }
+
+section > * {
+   outline: 2px dashed blue;
+}
