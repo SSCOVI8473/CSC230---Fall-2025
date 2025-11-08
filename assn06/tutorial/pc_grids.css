@@ -30,6 +30,8 @@ body > header {
 
 body > article {grid-area: intro;}
 
+body > aside {grid-area: faq;}
+
 /* Grid Styles for Nested Grid */
 
 section {
