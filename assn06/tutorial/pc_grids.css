@@ -12,6 +12,12 @@
 
 */
 
+/* Grid Styles for Page Body */
+
+body {
+   display: grid;
+}
+
 
 /* Grid Rows Styles */
 
