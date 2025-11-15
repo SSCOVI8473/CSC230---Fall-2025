@@ -54,6 +54,10 @@ header, ul, nav, li, a {
 
 }
 
+img {
+  display: block;
+}
+
 
 
 
