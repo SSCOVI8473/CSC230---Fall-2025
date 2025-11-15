@@ -71,6 +71,14 @@ img#logo {
   width: 100%;
 }
 
+nav.horizontal, footer {
+  grid-column: 1 / -1;
+}
+
+aside {
+  grid-column: span 2;
+}
+
 
 /* Row Styles */
 
