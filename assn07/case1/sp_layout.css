@@ -249,6 +249,11 @@ aside:nth-of-type(odd) {
   justify-self: end;
 }
 
+aside img {
+  float: left;
+  width: 20%;
+}
+
 ul#comments {
 
   width: 75%;
