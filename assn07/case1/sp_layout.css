@@ -254,6 +254,12 @@ aside img {
   width: 20%;
 }
 
+aside p {
+  float: left;
+  width: 75%;
+  margin-left: 5%;
+}
+
 ul#comments {
 
   width: 75%;
