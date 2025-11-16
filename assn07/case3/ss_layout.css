@@ -102,5 +102,7 @@ a.battleMarkers {
 
 /* Map Information Styles */
 
-
+div.mapInfo {
+   display: none;
+}
 
