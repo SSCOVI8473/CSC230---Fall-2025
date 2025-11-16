@@ -245,6 +245,10 @@ aside {
   padding-bottom: 30px;
 }
 
+aside:nth-of-type(odd) {
+  justify-self: end;
+}
+
 ul#comments {
 
   width: 75%;
