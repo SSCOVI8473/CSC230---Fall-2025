@@ -47,7 +47,8 @@ html {
 
 article {
    background: url(tb_back2.png) bottom right / 15%
-               no-repeat content-box;
+               no-repeat content-box,
+               ;
 }
 
 
