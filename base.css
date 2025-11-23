@@ -67,7 +67,14 @@ header.main-header {
     text-align: center;
 }
 
-header h1 {
+header.main-header h1 {
     font-size: 1.6rem;
     margin: 0;
+}
+
+header.main-header h2 {
+    font-size: 0.95rem;
+    margin: 0;
+    color: var(--text-muted);
+    font-weight: 400;
 }
