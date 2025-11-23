@@ -146,3 +146,16 @@ main {
     box-shadow: 0 14px 30px rgba(0, 0, 0, 0.6);
     border-color: var(--border-strong);
 }
+
+/* Card header strip */
+.card-header {
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.card-header h1,
+.card-header h2 {
+    margin: 0;
+    font-size: 1.25rem;
+}
