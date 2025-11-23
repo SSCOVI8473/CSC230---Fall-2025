@@ -35,3 +35,13 @@ img {
     height: auto;
     display: block;
 }
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
