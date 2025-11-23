@@ -42,11 +42,6 @@ a {
     text-decoration: none;
 }
 
-a:hover,
-a:focus {
-    text-decoration: underline;
-}
-
 /* Header/Navigation */
 
 header.main-header {
@@ -58,13 +53,13 @@ header.main-header {
 
     background-color: var(--bg-header);
     border-bottom: 1px solid var(--border-subtle);
-    padding: 0.75rem 1.5rem 0.5rem;
+    padding: 0.75rem 1.5rem 0rem;
 
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
-    align-items: center;
-    text-align: center;
+    align-items: left;
+    text-align: right;
 }
 
 header.main-header h1 {
@@ -77,4 +72,29 @@ header.main-header h2 {
     margin: 0;
     color: var(--text-muted);
     font-weight: 400;
+}
+
+/* Nav */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+nav a {
+    color: var(--text-main);
+    font-size: 2rem;
+    padding: 0.25rem 0rem;
+    border-radius: 10px 10px 0px 0px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: rgba(88, 166, 255, 0.2);
+    color: var(--accent);
 }
