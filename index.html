@@ -8,11 +8,12 @@
     -->
     <meta charset="utf-8">
     <title>My personal web page for class CSC230 - Web Design</title>
+    <link rel="stylesheet" href="base.css">
 </head>
 
 <body class="index-page">
     
-    <header>
+    <header class="main-header">
         <!--Placeholder Header-->
         <h1>Steven Scoville</h1>
         <h2>Aspiring Software Developer</h2>
@@ -32,56 +33,62 @@
         <!-- Short Introduction -->
         <section class="hero">
             <article class="card hero-card">
-                <header>
+                <header class="card-header">
                     <h2>Introduction</h2>
                 </header>
-                <h3>Welcome to my portfolio site!</h3>
-                <p>
-                    I'm an Information Technology student focused on learning web design and software development.
-                    This portfolio showcases my progress as I build skills in HTML, CSS, C#, and other technologies.
-                </p>
+                <section class="card-content">
+                    <h3>Welcome to my portfolio site!</h3>
+                    <p>
+                        I'm an Information Technology student focused on learning web design and software development.
+                        This portfolio showcases my progress as I build skills in HTML, CSS, C#, and other technologies.
+                    </p>
+                </section>
             </article>
 
-            <article class="card hero-image">
+            <article class="card image-card">
                 <img src="images/Scoville.jpg" alt="Photo of Steven Scoville">
             </article>
         </section>
 
         <!-- Current Focus -->
         <article class="card current-focus-card">
-                <header>
+                <header class="card-header">
                     <h2>What I'm Working On</h2>
                 </header>
-                <ul>
-                    <li>Building and refining this portfolio site using HTML and CSS.</li>
-                    <li>Learning intermediate C# concepts through Codecademy/small projects.</li>
-                    <li>Completing coursework in web design, programming, and IT fundamentals.</li>
-                </ul>
+                <section class="card-content">
+                    <ul>
+                        <li>Building and refining this portfolio site using HTML and CSS.</li>
+                        <li>Learning intermediate C# concepts through Codecademy/small projects.</li>
+                        <li>Completing coursework in web design, programming, and IT fundamentals.</li>
+                    </ul>
+                </section>
         </article>
 
         <!-- Technologies -->
           <article class="card technologies-card">
-                <header>
+                <header class="card-header">
                     <h2>Technologies I'm Learning</h2>
                 </header>
-                <h3>Languages</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>C#</li>
-                </ul>
-                <h3>Tools &amp; Environments</h3>
-                <ul>
-                    <li>Visual Studio &amp; Visual Studio Code</li>
-                    <li>Git &amp; GitHub for version control</li>
-                    <li>Browser DevTools for testing and debugging</li>
-                </ul>
-                <h3>Web Concepts</h3>
-                <ul>
-                    <li>Flexbox-based layouts</li>
-                    <li>Responsive design basics</li>
-                    <li>Semantic HTML structure</li>
-                </ul>
+                <section class="card-content">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>C#</li>
+                    </ul>
+                    <h3>Tools &amp; Environments</h3>
+                    <ul>
+                        <li>Visual Studio &amp; Visual Studio Code</li>
+                        <li>Git &amp; GitHub for version control</li>
+                        <li>Browser DevTools for testing and debugging</li>
+                    </ul>
+                    <h3>Web Concepts</h3>
+                    <ul>
+                        <li>Flexbox-based layouts</li>
+                        <li>Responsive design basics</li>
+                        <li>Semantic HTML structure</li>
+                    </ul>
+                </section>
           </article>
 
     </main>
