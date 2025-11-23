@@ -239,3 +239,36 @@ main {
     border: 1px solid var(--border-subtle);
     box-shadow: 0 10px 26px rgba(0, 0, 0, 0.55);
 }
+
+/* Buttons */
+
+button {
+    align-items: center;
+    font: inherit;
+    border-radius: 999px;
+    padding: 0.5rem 1.4rem;
+    border: 1px solid var(--accent);
+    background: transparent;
+    color: var(--text-main);
+    cursor: pointer;
+    letter-spacing: 0.02em;
+
+    transition:
+        background-color 0.3s ease,
+        box-shadow 0.3s ease,
+        transform 0.15s ease,
+        border-color 0.3s ease;
+}
+
+/* Ensure button inside link behaves nicely */
+a button {
+    display: inline-block;
+}
+
+button:hover,
+button:focus {
+    background-color: var(--accent);
+    border-color: var(--border-strong);
+    box-shadow: 0 0 12px rgba(31, 111, 235, 0.7);
+    transform: translateY(-1px);
+}
