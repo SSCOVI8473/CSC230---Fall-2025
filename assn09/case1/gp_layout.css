@@ -69,4 +69,8 @@ article {
       flex-flow: row nowrap;
       height: 40px;
    }
+
+   nav.horizonal ul li {
+      flex: 1 1 auto;
+   }
 }
