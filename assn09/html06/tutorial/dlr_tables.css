@@ -22,6 +22,10 @@ table.schedule {
    width: 100%;
 }
 
+table.schedule th, table.schedule td {
+   border: 1px solid gray;
+}
+
 /* Table Cell Styles */
 
 
