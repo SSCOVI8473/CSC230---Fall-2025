@@ -50,7 +50,9 @@ col.dataCols {
 
 /* Table Header Styles */
 
-
+thead th {
+   height: 60px;
+}
 
 
 
