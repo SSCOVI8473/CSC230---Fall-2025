@@ -77,3 +77,15 @@ a:hover {
     color: #1f4e79;
 }
 
+/* Section Styling */
+
+#content {
+    display: flex;
+}
+
+section {
+    width: 75%;
+    background-color: #eef3f7;
+    padding: 15px;
+}
+
