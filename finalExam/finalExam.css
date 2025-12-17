@@ -68,3 +68,12 @@ nav ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #1f4e79;
+}
+
