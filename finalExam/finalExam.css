@@ -128,4 +128,12 @@ h3 {
     font-variant: small-caps;
 }
 
+#assignmentsTable td {
+    text-align: left;
+    vertical-align: top;
+    color: #000000;
+    background-color: transparent;
+}
+
+
 
