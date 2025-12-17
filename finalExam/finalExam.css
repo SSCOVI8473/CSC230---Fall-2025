@@ -3,7 +3,7 @@
 /*
     Author:         Steven Scoville
     Date Completed: 12/16/2025
-    Required Files: finalExam.html
+    Required Files: finalExam.html, finalExam.css
     Description:    Base stylesheet for CSC230 Final Exam project
 */
 
@@ -50,7 +50,6 @@ header h3 {
 }
 
 header img {
-    float: right;
     max-width: 300px;
     max-height: 300px;
     width: auto;
@@ -158,10 +157,8 @@ h3 {
 /* Footer Styling */
 
 footer {
-    background-color: #dbe6f0; /* light, readable, consistent */
+    background-color: #dbe6f0;
     padding: 15px;
-    margin-top: 10px;
     text-align: center;
     color: #000000;
-    clear: both;
 }
