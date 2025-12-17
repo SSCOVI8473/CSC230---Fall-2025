@@ -27,7 +27,6 @@ header {
     justify-content: space-between;
 }
 
-
 header h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36pt;
@@ -52,3 +51,20 @@ header img {
     height: auto;
     margin: 15px;
 }
+
+/* Navigation Styles */
+
+nav {
+    background-color: #d6e1ec;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
