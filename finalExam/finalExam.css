@@ -135,5 +135,12 @@ h3 {
     background-color: transparent;
 }
 
+/* Footer Styling */
 
-
+footer {
+    background-color: #dbe6f0; /* light, readable, consistent */
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    color: #000000;
+}
