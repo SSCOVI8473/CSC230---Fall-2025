@@ -10,9 +10,11 @@
 /* Body Styles */
 
 body {
+    font-family: Verdana, Tahoma, Helvetica, sans-serif;
+    font-size: 16pt;
+    color: #000000;
     width: 85%;
     margin: 0 auto;
     background-color: #2f3e4e;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
 }
+
